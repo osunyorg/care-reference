@@ -3,4 +3,8 @@
   target: "/fr/capital-humain/"
   kind: page
   children: []
+- title: Capital naturel
+  target: "/fr/capital-naturel/"
+  kind: page
+  children: []
 
