@@ -7,4 +7,8 @@
   target: "/fr/capital-naturel/"
   kind: page
   children: []
+- title: Secteurs
+  target: "/fr/secteurs/"
+  kind: page
+  children: []
 
