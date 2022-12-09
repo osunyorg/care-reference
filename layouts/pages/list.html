@@ -26,7 +26,6 @@
       {{ partial "hooks/after-page-hero.html" . }}
       {{ partial "blocks/list.html" . }}
     {{ else }}
-      {{ partial "pages/image.html" .Params.image }}
       {{ partial "pages/children.html" .Params.children }}
     {{ end }}
   </div>
