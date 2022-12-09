@@ -1,4 +1,8 @@
 ---
+- title: Définitions
+  target: "/fr/definitions/"
+  kind: page
+  children: []
 - title: Capital humain
   target: "/fr/capital-humain/"
   kind: page
@@ -9,10 +13,6 @@
   children: []
 - title: Secteurs
   target: "/fr/secteurs/"
-  kind: page
-  children: []
-- title: Définitions
-  target: "/fr/definitions/"
   kind: page
   children: []
 
