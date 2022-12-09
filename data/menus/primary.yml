@@ -11,4 +11,8 @@
   target: "/fr/secteurs/"
   kind: page
   children: []
+- title: Définitions
+  target: "/fr/definitions/"
+  kind: page
+  children: []
 
