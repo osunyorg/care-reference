@@ -1,18 +1,18 @@
 ---
 - title: Définitions
-  target: "/fr/definitions/"
+  target: "/definitions/"
   kind: page
   children: []
 - title: Capital humain
-  target: "/fr/capital-humain/"
+  target: "/capital-humain/"
   kind: page
   children: []
 - title: Capital naturel
-  target: "/fr/capital-naturel/"
+  target: "/capital-naturel/"
   kind: page
   children: []
 - title: Secteurs
-  target: "/fr/secteurs/"
+  target: "/secteurs/"
   kind: page
   children: []
 
