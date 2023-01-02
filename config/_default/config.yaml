@@ -4,6 +4,7 @@ params:
   posts:
     list:
       truncate_description: 0
+  pages:
     list:
       truncate_description: 0
 
