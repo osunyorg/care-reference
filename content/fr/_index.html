@@ -10,7 +10,7 @@ full_width: true
 design:
   full_width: true
   toc:
-    present: true
+    present: false
     offcanvas: true
 
 position: 1
@@ -38,8 +38,89 @@ description_short: >
 
 header_text: >-
   
-legacy_text: >
-  
+contents:
+  - kind: block
+    template: pages
+    title: >
+      Définitions
+    position: 2
+    data:
+      page: /definitions/
+      show_main_description: false
+      show_descriptions: true
+      show_images: false
+      layout: grid
+      pages:
+        - page: /definitions/care/
+          slug: /definitions/care/
+        - page: /definitions/capital/
+          slug: /definitions/capital/
+        - page: /definitions/modeles/
+          slug: /definitions/modeles/
+        - page: /definitions/preservation/
+          slug: /definitions/preservation/
+        - page: /definitions/restauration/
+          slug: /definitions/restauration/
+
+
+  - kind: block
+    template: pages
+    title: >
+      Capital humain
+    position: 3
+    data:
+      page: /capital-humain/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /capital-humain/sante-psychologique/
+          slug: /capital-humain/sante-psychologique/
+        - page: /capital-humain/sante-physique/
+          slug: /capital-humain/sante-physique/
+        - page: /capital-humain/education/
+          slug: /capital-humain/education/
+
+
+  - kind: block
+    template: pages
+    title: >
+      Capital naturel
+    position: 4
+    data:
+      page: /capital-naturel/
+      show_main_description: true
+      show_descriptions: false
+      show_images: false
+      layout: list
+      pages:
+        - page: /capital-naturel/atmosphere/
+          slug: /capital-naturel/atmosphere/
+        - page: /capital-naturel/biodiversite/
+          slug: /capital-naturel/biodiversite/
+        - page: /capital-naturel/eau/
+          slug: /capital-naturel/eau/
+        - page: /capital-naturel/sol/
+          slug: /capital-naturel/sol/
+
+
+  - kind: block
+    template: pages
+    title: >
+      Secteurs
+    position: 5
+    data:
+      page: /secteurs/
+      show_main_description: false
+      show_descriptions: true
+      show_images: false
+      layout: grid
+      pages:
+        - page: /secteurs/activites-de-services/
+          slug: /secteurs/activites-de-services/
+
+
 blocks:
   - template: pages
     title: >-
