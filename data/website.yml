@@ -2,5 +2,5 @@ title: >
   Base de référence CARE
 external_domains:
   - "osuny-1b4da.kxcdn.com"
-  - "demo.osuny.org"
+  - "*.osuny.org"
   - "osuny.s3.fr-par.scw.cloud"
