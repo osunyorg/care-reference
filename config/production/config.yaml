@@ -5,3 +5,4 @@ baseURL: https://care-reference.netlify.app
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
+
