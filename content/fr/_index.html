@@ -1,7 +1,8 @@
 ---
-title: >
-  Base de référence CARE
+title: "Base de référence CARE"
 breadcrumb_title: "Accueil"
+breadcrumbs:
+  - title: "Base de référence CARE"
 url: "/"
 aliases:
   - /fr/
@@ -20,13 +21,13 @@ translation_key: communication-website-page-258b6706-468f-480f-a065-0b53d0973a7d
 bodyclass: 
 
 children:
-  - /capital-humain/
-  - /capital-naturel/
-  - /secteurs/
-  - /definitions/
-  - /actualites/
-  - /equipe/
-  - /organisations/
+  - "content/fr/pages/capital-humain/_index.html"
+  - "content/fr/pages/capital-naturel/_index.html"
+  - "content/fr/pages/secteurs/_index.html"
+  - "content/fr/pages/definitions/_index.html"
+  - "content/fr/posts/_index.html"
+  - "content/fr/persons/_index.html"
+  - "content/fr/organizations/_index.html"
 meta_description: >
   
 description: >
@@ -50,68 +51,35 @@ contents:
       Définitions
     position: 2
     data:
-      page: /definitions/
+      page: 
+        path: "/definitions/"
+        slug: "definitions"
+        file: "content/fr/pages/definitions/_index.html"
       show_main_description: false
       show_descriptions: true
       show_images: false
       layout: grid
       pages:
-        - page: "/definitions/care/"
-          slug: "/definitions/care/"
-        - page: "/definitions/capital/"
-          slug: "/definitions/capital/"
-        - page: "/definitions/modeles/"
-          slug: "/definitions/modeles/"
-        - page: "/definitions/preservation/"
-          slug: "/definitions/preservation/"
-        - page: "/definitions/restauration/"
-          slug: "/definitions/restauration/"
-      elements:
-        - title: >-
-            CARE
-          summary: >-
-            
+        - path: "/definitions/care/"
           slug: "care"
-          path: "/definitions/care/"
-          url: "/definitions/care/"
-          bodyclass: >-
-            
-        - title: >-
-            Capital
-          summary: >-
-            
+          file: "content/fr/pages/definitions/care/_index.html"
+          external: false
+        - path: "/definitions/capital/"
           slug: "capital"
-          path: "/definitions/capital/"
-          url: "/definitions/capital/"
-          bodyclass: >-
-            
-        - title: >-
-            Modèles
-          summary: >-
-            
+          file: "content/fr/pages/definitions/capital/_index.html"
+          external: false
+        - path: "/definitions/modeles/"
           slug: "modeles"
-          path: "/definitions/modeles/"
-          url: "/definitions/modeles/"
-          bodyclass: >-
-            
-        - title: >-
-            Préservation
-          summary: >-
-            
+          file: "content/fr/pages/definitions/modeles/_index.html"
+          external: false
+        - path: "/definitions/preservation/"
           slug: "preservation"
-          path: "/definitions/preservation/"
-          url: "/definitions/preservation/"
-          bodyclass: >-
-            
-        - title: >-
-            Restauration
-          summary: >-
-            
+          file: "content/fr/pages/definitions/preservation/_index.html"
+          external: false
+        - path: "/definitions/restauration/"
           slug: "restauration"
-          path: "/definitions/restauration/"
-          url: "/definitions/restauration/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/definitions/restauration/_index.html"
+          external: false
 
 
   - kind: block
@@ -120,46 +88,27 @@ contents:
       Capital humain
     position: 3
     data:
-      page: /capital-humain/
+      page: 
+        path: "/capital-humain/"
+        slug: "capital-humain"
+        file: "content/fr/pages/capital-humain/_index.html"
       show_main_description: true
       show_descriptions: false
       show_images: false
       layout: list
       pages:
-        - page: "/capital-humain/sante-psychologique/"
-          slug: "/capital-humain/sante-psychologique/"
-        - page: "/capital-humain/sante-physique/"
-          slug: "/capital-humain/sante-physique/"
-        - page: "/capital-humain/education/"
-          slug: "/capital-humain/education/"
-      elements:
-        - title: >-
-            Santé psychologique
-          summary: >-
-            Selon l'OMS, la santé mentale est un “état de bien-être qui permet à chacun de réaliser son potentiel, de faire face aux difficultés normales de la vie, de travailler avec succès et de manière productive, et d'être en mesure d'apporter une contribution à la communauté”
+        - path: "/capital-humain/sante-psychologique/"
           slug: "sante-psychologique"
-          path: "/capital-humain/sante-psychologique/"
-          url: "/capital-humain/sante-psychologique/"
-          bodyclass: >-
-            
-        - title: >-
-            Santé physique
-          summary: >-
-            Selon l'OMS “La santé est un état de complet bien-être physique, mental et social et ne consiste pas seulement en une absence de maladie ou d'infirmité”
+          file: "content/fr/pages/capital-humain/sante-psychologique/_index.html"
+          external: false
+        - path: "/capital-humain/sante-physique/"
           slug: "sante-physique"
-          path: "/capital-humain/sante-physique/"
-          url: "/capital-humain/sante-physique/"
-          bodyclass: >-
-            
-        - title: >-
-            Éducation
-          summary: >-
-            L’éducation est l'apprentissage et le développement des facultés intellectuelles, morales et physiques, les moyens et les résultats de cette activité de développement
+          file: "content/fr/pages/capital-humain/sante-physique/_index.html"
+          external: false
+        - path: "/capital-humain/education/"
           slug: "education"
-          path: "/capital-humain/education/"
-          url: "/capital-humain/education/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/capital-humain/education/_index.html"
+          external: false
 
 
   - kind: block
@@ -168,57 +117,31 @@ contents:
       Capital naturel
     position: 4
     data:
-      page: /capital-naturel/
+      page: 
+        path: "/capital-naturel/"
+        slug: "capital-naturel"
+        file: "content/fr/pages/capital-naturel/_index.html"
       show_main_description: true
       show_descriptions: false
       show_images: false
       layout: list
       pages:
-        - page: "/capital-naturel/atmosphere/"
-          slug: "/capital-naturel/atmosphere/"
-        - page: "/capital-naturel/biodiversite/"
-          slug: "/capital-naturel/biodiversite/"
-        - page: "/capital-naturel/eau/"
-          slug: "/capital-naturel/eau/"
-        - page: "/capital-naturel/sol/"
-          slug: "/capital-naturel/sol/"
-      elements:
-        - title: >-
-            Atmosphère
-          summary: >-
-            L'atmosphère terrestre est l'enveloppe gazeuse, entourant la Terre, que l'on appelle air. L'atmosphère protège la vie sur Terre en filtrant le rayonnement solaire ultraviolet, en réchauffant la surface par la rétention de chaleur (effet de serre) et en réduisant partiellement les écarts de température entre le jour et la nuit
+        - path: "/capital-naturel/atmosphere/"
           slug: "atmosphere"
-          path: "/capital-naturel/atmosphere/"
-          url: "/capital-naturel/atmosphere/"
-          bodyclass: >-
-            
-        - title: >-
-            Biodiversité
-          summary: >-
-            La biodiversité désigne l'ensemble des êtres vivants ainsi que les écosystèmes dans lesquels ils vivent. Ce terme comprend également les interactions des espèces entre elles et avec leurs milieux. Bien que la biodiversité soit aussi ancienne que la vie sur Terre, ce concept n'est apparu que dans les années 1980
+          file: "content/fr/pages/capital-naturel/atmosphere/_index.html"
+          external: false
+        - path: "/capital-naturel/biodiversite/"
           slug: "biodiversite"
-          path: "/capital-naturel/biodiversite/"
-          url: "/capital-naturel/biodiversite/"
-          bodyclass: >-
-            
-        - title: >-
-            Eau
-          summary: >-
-            L'eau est une substance chimique constituée de molécules H2O. Compte tenu de son caractère vital, de son importance dans l'économie et de sa répartition inégale sur Terre, l'eau est une ressource naturelle dont la gestion est l'objet de forts enjeux géopolitiques
+          file: "content/fr/pages/capital-naturel/biodiversite/_index.html"
+          external: false
+        - path: "/capital-naturel/eau/"
           slug: "eau"
-          path: "/capital-naturel/eau/"
-          url: "/capital-naturel/eau/"
-          bodyclass: >-
-            
-        - title: >-
-            Sol
-          summary: >-
-            Le sol est la partie vivante de la géosphère, constituant la couche la plus externe de la croûte terrestre, résultant de l'interaction entre la lithosphère, l'atmosphère, l'hydrosphère et la biosphère
+          file: "content/fr/pages/capital-naturel/eau/_index.html"
+          external: false
+        - path: "/capital-naturel/sol/"
           slug: "sol"
-          path: "/capital-naturel/sol/"
-          url: "/capital-naturel/sol/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/capital-naturel/sol/_index.html"
+          external: false
 
 
   - kind: block
@@ -227,24 +150,19 @@ contents:
       Secteurs
     position: 5
     data:
-      page: /secteurs/
+      page: 
+        path: "/secteurs/"
+        slug: "secteurs"
+        file: "content/fr/pages/secteurs/_index.html"
       show_main_description: false
       show_descriptions: true
       show_images: false
       layout: grid
       pages:
-        - page: "/secteurs/activites-de-services/"
-          slug: "/secteurs/activites-de-services/"
-      elements:
-        - title: >-
-            Information et communication
-          summary: >-
-            Ce secteur regroupe l'édition littéraire, l'édition musicale, l'édition de logiciels, les activités audio-visuelles, les services de télécommunications, les services informatiques et les activités liées à l’internet
+        - path: "/secteurs/activites-de-services/"
           slug: "activites-de-services"
-          path: "/secteurs/activites-de-services/"
-          url: "/secteurs/activites-de-services/"
-          bodyclass: >-
-            
+          file: "content/fr/pages/secteurs/activites-de-services/_index.html"
+          external: false
 
 
 
