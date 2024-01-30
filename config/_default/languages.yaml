@@ -5,6 +5,8 @@ fr:
   contentDir: content/fr
   languageCode: fr
   languageName: Français
+  params:
+    social:
   permalinks:
   taxonomies:
     administrator: administrators
