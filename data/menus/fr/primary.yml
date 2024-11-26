@@ -5,16 +5,20 @@ items:
   target: "/definitions/"
   kind: page
   children: []
+  file: content/fr/pages/definitions/_index.html
 - title: Capital humain
   target: "/capital-humain/"
   kind: page
   children: []
+  file: content/fr/pages/capital-humain/_index.html
 - title: Capital naturel
   target: "/capital-naturel/"
   kind: page
   children: []
+  file: content/fr/pages/capital-naturel/_index.html
 - title: Secteurs
   target: "/secteurs/"
   kind: page
   children: []
+  file: content/fr/pages/secteurs/_index.html
 
