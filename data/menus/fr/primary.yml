@@ -4,24 +4,28 @@ items:
 - title: Définitions
   target: "/definitions/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/definitions"
   file: content/fr/pages/definitions/_index.html
 - title: Capital humain
   target: "/capital-humain/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/capital-humain"
   file: content/fr/pages/capital-humain/_index.html
 - title: Capital naturel
   target: "/capital-naturel/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/capital-naturel"
   file: content/fr/pages/capital-naturel/_index.html
 - title: Secteurs
   target: "/secteurs/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/secteurs"
   file: content/fr/pages/secteurs/_index.html
