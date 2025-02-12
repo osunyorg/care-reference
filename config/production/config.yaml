@@ -2,6 +2,11 @@
 
 baseURL: https://care-reference.netlify.app
 
+## OSUNY
+osuny:
+  website:
+    id: f82a02fc-c3eb-43b7-a442-1e53088d2cd3
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
