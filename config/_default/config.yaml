@@ -1,7 +1,5 @@
 theme: osuny
-paginate: 18
-enableRobotsTXT: true
-removePathAccents: true
+_merge: deep
 params:
   posts:
     list:
@@ -9,4 +7,3 @@ params:
   pages:
     list:
       truncate_description: 0
-
